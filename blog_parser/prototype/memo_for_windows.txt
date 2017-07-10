@@ -1,0 +1,16 @@
+Windows 10環境での使用方法
+
+1.python3系のインストール
+http://qiita.com/kituneazami/items/4d2db7726bdc0eb37f2b
+※一番わかり易いボタンが実は32bit版なので間違えないように
+
+2.事前準備(beautifulsoup4, xlsxwritterのインストール)
+コマンドプロンプト開いて下記コマンドの実行
+
+pip install beautifulsoup4
+pip install xlsxwriter
+
+※pipはpythonでパッケージ入れる際によく使うコマンド
+
+3.コマンドプロンプト開いて下記コマンドの実行
+python blog_parser.py
